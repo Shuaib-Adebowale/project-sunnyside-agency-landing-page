@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header{
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+/* NAV BAR */
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+/* NAV */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    padding: 0 10px;
+}
+
+/* list items */
+li{
+    list-style-type: none;
+    padding: 10px 0 0;
+}
+
+/* ANCHOR LIST ITEMS */
+ul a{
+    text-decoration: none;
+}
+
+li a{
+    color: #ffff;
+    padding: 10px;
+    border-radius: 80px;
+}
+
+ul .contact{
+    background-color: #ffff;
+    color: #000;
+}
+
+a:hover{
+    text-transform: uppercase;
+}
+
+
+/* -HAMBUGER ICON */
+.humburger{
+    display: none;
+}
+
+/* ICON-ARROW-DOWN */
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.hero h1{
+    letter-spacing: 10px;
+}
+
+.hero img{
+   margin: 170px 0;
+   height: 120px;
+   width: 30px;
+}
+
+/* BOOK AND TEXT  */
+.book{
+    display: flex;
+}
+
+.book img{
+    width: 62.7%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {
+    margin-left: 10%;
+    width: 50%;
+}
+
+.text h1{
+    font-size: 37px;
+    font-weight: 800;
+    font-family: 'fraunces';
+    padding: 0 260px 0 0;
+}
+
+.text p{
+    margin: 30px auto;
+    font-family: 'barlow';
+    color: #747474;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 230px 0 0;
+}
+.text h2{
+    font-size: 37px;
+    font-weight: 800;
+    font-family: 'fraunces';
+    padding: 0 150px 0 0;
+}
+.text h3{
+    font-family: 'fraunces';
+    font-size: 16px;
+}
+
+.text h3::after{
+    content: "";
+    width: 120px;
+    height: 8px;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+    left: -2.5px;
+    top: -8px;
+    z-index: -1;
+}
+
+.text-2 h3::after{
+    background-color: #ffd5d5;
+}
+
+.text-1 h3::after{
+    background-color: #ffebab;
+}
+
+/* HERO-MAIN AND TABLE, TABLE-1 &2 */
+.hero-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.table-1{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+}
+.table-2{
+    background-image: url(images/desktop/image-photography.jpg);
+    
+}
+
+.table{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#hero-main{
+    display: flex;
+}
+
+.table h1{
+   font-family: 'fraunces';
+   font-size: 30px;
+   font-weight: 800;
+   color: #454545;
+}
+
+.table p{
+   margin: 50px 230px;
+   font-size: 20px;
+   font-family: 'barlow';
+   text-align: center;
+}
+
+
+/* PHOTO-MAN AND PHOTO 1,2 & 3 */
+#clint{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+ #clint h1{
+    margin-top:100px;
+    font-size: 30px;
+    color: #454545;
+    font-family: 'fraunces';
+    letter-spacing: 2px;
+ }
+
+ .photo-main{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 30px 0 100px;
+ }
+
+ .photo img{
+        border-radius: 90px;
+        width: 90px;
+        margin: 30px 0;
+ }
+
+ .photo p{
+        padding: 5px;
+        height: 60px;
+        width: 300px;
+        margin: 30px 20px;
+        font-family: 'barlow';
+        color: #454545;
+        font-weight: 500;
+ }
+ 
+ .photo h4{
+    font-size: 15px;
+    margin: 10px 0;
+    color: #7a7a7a;
+    font-family: 'barlow';
+    font-weight: 500;
+ }
+.photo h3{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'fraunces';
+}
+
+ /* CLASS-MAIN AND CLASS-1 */
+ .class-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .class-1{
+    height: 400px;
+ }
+
+ .class-main img{
+    width: 374px;
+    height: 100%;
+ }
+
+
+ /* BAYO AND BAYO-1 */
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #56bd9a;
+    height: 250px;
+ }
+
+ footer h1{
+    margin: 50px 0;
+    color: #8CCFC0;
+ }
+
+ .bayo-1 a{
+    color: #7BC1B2;
+ }
+
+ .bayo-2{
+    margin: 30px 0;
+    height: 20px;
+    width: 400px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .bayo-2 a{
+    color: #000;
+ }
+
+
+ 
+ /* @MEDIA SCREEN */
+/* HERO */
+@media (max-width: 500px){
+    .hero{
+        text-align: center;
+        font-size: 15px;
+    }
+    nav ul{
+        display: none;
+    }
+
+    .humburger{
+        display: block;
+    }
+
+
+     /* HERO-TEXT */
+    .book{
+        flex-direction: column-reverse;
+    }
+   
+    .book img{
+        width: 100%;
+    }
+
+    .book-2 img{
+        margin-top: -4px;
+    }
+    .book-3{
+        flex-direction: column;
+    }
+    .text{
+        text-align: center;
+      margin-left: 0;
+      width: 0;
+    }
+    .text h1{
+        text-align: center;
+        margin: 20px;
+        padding: 30px;
+        width: 350px;
+    }
+    .text p{
+        text-align: center;
+        padding: 0 60px;
+        width: 400px;
+    }
+    .text h2{
+        text-align: center;
+        margin: 20px;
+        padding: 30px;
+        width: 350px;
+    }
+    .text h3{
+        text-align: center;
+        width: 400px;
+        padding: 10px;
+    }
+    .text h3::after{
+        text-align: center;
+        margin: 0 130px;
+    }
+    /* HERO-MAIN AND TABLE, TABLE-1 &2 */
+    #hero-main{
+        display: block;
+    }
+
+    .table  p{
+        width: 90%;
+    }
+    
+
+    /* PHOTO-MAN AND PHOTO 1,2 & 3 */
+    #clint h1{
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .photo-main{
+        flex-direction: column;
+    }
+    .photo p{
+       margin: 10px 40px;
+        width: 80%;
+    }
+    .class-main{
+       flex-direction: row;
+    }
+
+    
+    /* CLASS-MAIN */
+   .class-main img{
+    width: 25%;
+   }
+
+   /* BAYO */
+   .bayo-1{
+    margin: 5px 20px;
+    width: 70%;
+   }
+   .bayo-2{
+    padding: 5px 60px;
+    width: 80%;
+    margin: 0;
+   }
+}
